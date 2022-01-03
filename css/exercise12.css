@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: right;
+}
+
+section {
+    background-color: darkcyan;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+section > article:nth-child(even) {
+background-color: cornflowerblue;
+}
+
+article {
+    width: 100%;
+    padding: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+ text-align: justify;
+}

@@ -1,0 +1,169 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(204, 199, 199);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.general {
+    background-color: rgb(248, 113, 60);
+    height: 140px;
+}
+
+.header {
+    background-color: rgb(246, 194, 134);
+    height: 100px;
+    position: relative;
+    top: 5px;    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;   
+}
+
+.nav {
+    /*border: thin solid green;*/
+    height: 35px;
+    position: relative;
+    top: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 30px;
+}
+
+.individual {
+    height: 35px;
+}
+
+.individual a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    position: relative;
+    top: 8px;
+}
+
+.individual:hover {
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+.product {
+    background-color: rgb(255, 255, 255);
+     margin-top: 10px;
+    height: 175px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.name {
+    font-size: 3rem;
+    padding-top: 25px;
+}
+
+.image img {
+    width: 175px;
+    height: 175px;
+}
+
+.products {
+    margin-top: 10px;
+    height: 205px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-bottom: 10px;
+}
+
+.box {
+    background-color: rgb(255, 255, 255);
+    border: thin solid rgb(158, 154, 154);
+    margin-left: 10px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 10px;
+}
+
+.my-product img {
+    width: 65%;
+    height: 100%;
+}
+
+p {
+    text-align: center;
+}
+
+.social-networks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.information {
+    background-color: rgb(250, 239, 2241);
+    border-top: medium solid rgba(233, 171, 91, 0.6);
+    height: 150px;
+    margin-bottom: 25px;
+    color: rgb(165, 125, 74);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.material-icons-outline {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
